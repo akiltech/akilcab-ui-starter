@@ -35,7 +35,7 @@ module.exports = {
     }
   ],
 
-  scopes: [{ name: 'ui' }, { name: 'settings' }],
+  scopes: [{ name: 'ui' }, { name: 'config' }],
 
   scopeOverrides: {
     fix: [{ name: 'merge' }, { name: 'style' }, { name: 'test' }, { name: 'hotfix' }]
