@@ -1,0 +1,10 @@
+// .eslintignore
+*.css
+*.svg
+build/*
+public/*
+src/react-app-env.d.ts
+src/reportWebVitals.js
+src/service-worker.ts
+src/serviceWorkerRegistration.ts
+src/setupTests.js
