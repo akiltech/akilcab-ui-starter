@@ -1,9 +1,20 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "src",
     "paths": {
-      "@shared/*": ["src/shared/*"]
+      "@app/*": ["app/*"],
+      "@pages/*": ["app/pages/*"],
+      "@modules/*": ["app/modules/*"],
+
+      "@core/*": ["core/*"],
+      "@guards/*": ["core/guards/*"],
+      "@interceptors/*": ["core/interceptors/*"],
+      "@services/*": ["core/services/*"],
+      "@utils/*": ["core/utils/*"],
+
+      "@shared/*": ["shared/*"],
+      "@components/*": ["shared/components/*"],
+      "@layouts/*": ["shared/layouts/*"]
     }
-  },
-  "include": ["src/**/*"]
+  }
 }
