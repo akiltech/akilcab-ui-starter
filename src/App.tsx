@@ -1,7 +1,16 @@
-import './App.css';
+import { Button, Typography } from '@mui/material';
 
-function App() {
-  return <div className="App">akilcab</div>;
-}
+import './App.css';
+import ThemeProvider from './theme';
+
+const App = () => (
+  <ThemeProvider>
+    <div className="App">
+      <Button>Primary</Button>
+      <Button color="secondary">Secondary</Button>
+      <Typography>TEXT</Typography>
+    </div>
+  </ThemeProvider>
+);
 
 export default App;

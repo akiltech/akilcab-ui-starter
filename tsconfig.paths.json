@@ -14,7 +14,8 @@
 
       "@shared/*": ["shared/*"],
       "@components/*": ["shared/components/*"],
-      "@layouts/*": ["shared/layouts/*"]
+      "@layouts/*": ["shared/layouts/*"],
+      "@theme/*": ["theme/*"]
     }
   }
 }

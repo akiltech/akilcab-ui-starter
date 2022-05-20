@@ -18,7 +18,8 @@ module.exports = {
       '@utils': srcPath('core/utils'),
       '@shared': srcPath('shared'),
       '@components': srcPath('shared/components'),
-      '@layouts': srcPath('shared/layouts')
+      '@layouts': srcPath('shared/layouts'),
+      '@theme': srcPath('theme')
     }
   }
 };
