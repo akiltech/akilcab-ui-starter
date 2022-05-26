@@ -112,6 +112,7 @@ const DEFAULT = {
 };
 
 const palette = {
+  ...DEFAULT,
   light: {
     ...DEFAULT,
     text: { primary: GREY[800], secondary: GREY[600], disabled: GREY[500] },
