@@ -6,8 +6,12 @@ import ThemeProvider from './theme';
 const App = () => (
   <ThemeProvider>
     <div className="App">
-      <Button>Primary</Button>
-      <Button color="secondary">Secondary</Button>
+      <Button color="primary" variant="contained">
+        Primary
+      </Button>
+      <Button color="secondary" variant="contained">
+        Secondary
+      </Button>
       <Typography>TEXT</Typography>
     </div>
   </ThemeProvider>
