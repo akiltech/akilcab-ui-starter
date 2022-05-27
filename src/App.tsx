@@ -1,19 +1,15 @@
-import { Button, Typography } from '@mui/material';
+// @core
+import Router from '@core/routes';
+import { ProgressBarStyle } from '@shared/components/ProgressBar';
 
 import './App.css';
 import ThemeProvider from './theme';
 
 const App = () => (
   <ThemeProvider>
-    <div className="App">
-      <Button color="primary" variant="contained">
-        Primary
-      </Button>
-      <Button color="secondary" variant="contained">
-        Secondary
-      </Button>
-      <Typography>TEXT</Typography>
-    </div>
+    <ProgressBarStyle />
+
+    <Router />
   </ThemeProvider>
 );
 
