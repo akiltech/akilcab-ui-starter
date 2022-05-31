@@ -41,3 +41,13 @@ yarn commit
 ou
 npm run commit
 ```
+
+## Storybook
+
+Ce starter utilise storybook, qui est un outil de développement d'interface utilisateur. Il a pour rôle de créer de petits composants atomiques et des pages complexes. Taper la commande suivante pour le lancer
+
+```bash
+yarn storybook
+```
+
+Àprès exécution de la commande, ouvrez une fenêtre avec cette URL: http://localhost:6006 pour lancer le visuel de storybook.
