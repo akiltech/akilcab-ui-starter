@@ -1,0 +1,2 @@
+cra-template-akilcab:lint: cache hit, replaying output [2mecf67497118ce023[0m
+[35mcra-template-akilcab:lint: [0m$ ./template/node_modules/eslint/bin/eslint.js --ext .ts,.tsx ./template/src
