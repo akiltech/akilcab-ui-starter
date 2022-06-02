@@ -4,41 +4,40 @@
 
 **Working on your first Pull Request?** You can learn how from this _free_ series [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
 
-## Objectif
+## What's inside?
 
-Le but de ce repository est d'offrir un boilerplate (starter) ainsi que des packages que seront communs aux projet AKILCAB
+This monorepo uses [Yarn](https://classic.yarnpkg.com/lang/en/) as a package manager. It includes the following packages/apps:
 
-## Structure du repo
+### Apps and Packages
 
-Ce projet est un monorepo structuré comme suit:
+- `cra-template-akilcab`: The CRA template of AKILTECH
 
-- un dossier `packages` contenant tous les packages npm
+Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
-### Comment ouvrir un pull request (PR)
+### Utilities
 
-Pour contribuer au projet vous devez cloner le projet, ensuite créer une branche avec la commande suivante
+This monorepo has some additional tools already setup for you:
 
-```bash
-git checkout -b <nom_de_la_branche>
+- [TypeScript](https://www.typescriptlang.org/) for static type checking
+- [ESLint](https://eslint.org/) for code linting
+- [Prettier](https://prettier.io) for code formatting
+
+## Setup
+
+This repository is used in the `npx create-turbo` command, and selected when choosing which package manager you wish to use with your monorepo (Yarn).
+
+### Build
+
+To build all apps and packages, run the following command:
+
 ```
-NB: Vous devez créer la branche à partir de la branche principale
-
-Faire un commit par la suite avant la commande suivante
-
-```bash
-git add . && git commit -m "message du commit"
-```
-
-Et pousser son code avec la commande suivante
-
-Si le projet n'a pas été forké
-
-```bash
-git push origin <nom_de_la_branche>
+yarn run build
 ```
 
-Si le projet a été forké
+### Develop
 
-```bash
-git push upstream <nom_de_la_branche>
+To develop all apps and packages, run the following command:
+
+```
+yarn run dev
 ```

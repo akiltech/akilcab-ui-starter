@@ -1,6 +1,9 @@
 {
-  "name": "akilcab-ui-starter-template",
-  "version": "1.2.0",
+  "name": "cra-template-akilcab",
+  "version": "0.0.0",
+  "scripts": {
+    "lint": "./template/node_modules/eslint/bin/eslint.js --ext .ts,.tsx ./template/src"
+  },
   "keywords": [
     "react",
     "create-react-app",

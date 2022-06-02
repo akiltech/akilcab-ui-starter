@@ -1,7 +1,7 @@
 import { Suspense, lazy } from 'react';
 import { Navigate, Outlet, useRoutes } from 'react-router-dom';
 
-import ProgressBar from '@components/ProgressBar';
+import ProgressBar from '../../shared/components/ProgressBar';
 
 // ----------------------------------------------------------------------
 
